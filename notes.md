@@ -18,17 +18,17 @@ INTEGRACIÓN FLAGS CON PLATAFORMA
 
 ASLR OFF
 
-- 3. returning to “shell code” on the stack (predictable address)
-- 4. returning to libc
+- format string attack
+- Corrupting the stack
+- overwriting the saved instruction pointer
+- returning to “shell code” on the stack (predictable address)
+- returning to libc
 
 ASLR ON/OFF
 
-- 1. Corrupting the stack
-- 2. overwriting the saved instruction pointer
-- 5. returning to“shell code”on the stack (JMP RSP)
-- 6. immitating the behaviour of JMP RSP
-- 7. overwriting the Global Offset Table (GOT)
-- format string attack
+- returning to“shell code”on the stack (JMP RSP)
+- immitating the behaviour of JMP RSP
+- overwriting the Global Offset Table (GOT)
 - ret2win
 - double free
 - use after free
