@@ -21,8 +21,8 @@ EXERCISES
 - format string attack
 - Corrupting the stack
 - ret2win
+- ret2shellcode
 
-- returning to “shell code” on the stack (predictable address)
 - returning to libc
 - returning to“shell code”on the stack (JMP RSP)
 - immitating the behaviour of JMP RSP
