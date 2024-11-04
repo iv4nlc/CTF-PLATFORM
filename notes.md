@@ -16,20 +16,17 @@ INTEGRACIÓN FLAGS CON PLATAFORMA
 - Cifrado para complicar un poco?
 - Ofuscación para las pistas?
 
-ASLR OFF
+EXERCISES
 
 - format string attack
 - Corrupting the stack
-- overwriting the saved instruction pointer
+- ret2win
+
 - returning to “shell code” on the stack (predictable address)
 - returning to libc
-
-ASLR ON/OFF
-
 - returning to“shell code”on the stack (JMP RSP)
 - immitating the behaviour of JMP RSP
 - overwriting the Global Offset Table (GOT)
-- ret2win
 - double free
 - use after free
 
