@@ -22,13 +22,10 @@ EXERCISES
 - Corrupting the stack
 - ret2win
 - ret2shellcode
-
 - returning to libc
 - returning to“shell code”on the stack (JMP RSP)
 - immitating the behaviour of JMP RSP
 - overwriting the Global Offset Table (GOT)
-- double free
-- use after free
 
 ASLR (0 desactivado y 2 completamente activado)
 
